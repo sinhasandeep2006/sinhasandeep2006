@@ -88,7 +88,7 @@ Experienced in collaborating across teams, writing clear technical documentation
         <li>🕎 Connect over the chat: <a href="https://discord.com/invite/JTXBVvXeTx">Discord</a></li>
         <li>🧠 Learning on <a href="https://github.com/sinhasandeep2006/">GitHub</a></li>
         <li>💬 Contact me: <a href="mailto:1233sandeepsinha@gmail.com">1233sandeepsinha@gmail.com</a></li>
-        <li><img src="/sinhasandeep2006/images/image.png" width="13px"> Instagram @<a href="https://www.instagram.com/s.i.nha_sandeep?igsh=MXB4azhhM2w4dnpzZQ==">s.i.nha_sandeep</a></li>
+        <li><img src="./images/image.png" width="13px"> Instagram @<a href="https://www.instagram.com/s.i.nha_sandeep?igsh=MXB4azhhM2w4dnpzZQ==">s.i.nha_sandeep</a></li>
         <li>✖️ X-@<a href="https://x.com/avtadell?t=3_9eMboQYgsHZceDuERYXg&s=09">avatdell</a></li>
       </ul>
     </td>
