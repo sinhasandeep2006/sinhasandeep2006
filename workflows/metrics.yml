@@ -1,8 +1,8 @@
 name: 🧮 GitHub Metrics
 
 on:
-  schedule: [{ cron: "0 0 * * 0" }] # Every Sunday at midnight
-  workflow_dispatch: # Manual trigger
+  schedule: [{ cron: "0 0 * * 0" }]
+  workflow_dispatch:
 
 jobs:
   github-metrics:
@@ -12,38 +12,19 @@ jobs:
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Required
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Core settings
           user: sinhasandeep2006
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Kolkata  # Change to your time zone
+          config_timezone: Asia/Kolkata
 
-          # Plugin: Languages
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-
-          # Plugin: Lines of code
           plugin_lines: yes
-
-          # Plugin: Repositories traffic
+          plugin_habits: yes
+          plugin_achievements: yes
           plugin_traffic: yes
 
-          # Plugin: Habits (contribution patterns)
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-
-          # Plugin: Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-
-          # Plugin: Activity (commits)
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          # ✅ This saves metrics.svg into your repo
+          output_action: commit
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
