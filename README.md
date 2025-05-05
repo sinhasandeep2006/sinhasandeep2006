@@ -98,4 +98,6 @@ Experienced in collaborating across teams, writing clear technical documentation
   </tr>
 </table>
 
+### 📊 GitHub Activity Dashboard
 
+![Metrics](./metrics.svg)
