@@ -70,7 +70,7 @@ Experienced in collaborating across teams, writing clear technical documentation
 
 </td >
     <td align="center">
-      <img src="/sinhasandeep2006/images/profile.png" width="300px" />
+      <img src="./images/profile.png" width="300px" />
     </td>
   </tr>
 </table>
@@ -94,7 +94,5 @@ Experienced in collaborating across teams, writing clear technical documentation
     </td>
   </tr>
 </table>
-
-![Snake animation](https://raw.githubusercontent.com/sinhasandeep2006/sinhasandeep2006/output/snake.svg)
 
 
