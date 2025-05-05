@@ -102,3 +102,10 @@ Experienced in collaborating across teams, writing clear technical documentation
 
 ![Metrics](https://raw.githubusercontent.com/sinhasandeep2006/sinhasandeep2006/main/metrics.svg)
 
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=sinhasandeep2006&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
+
+[![Profile views](https://komarev.com/ghpvc/?username=sinhasandeep2006&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/sinhasandeep2006)
