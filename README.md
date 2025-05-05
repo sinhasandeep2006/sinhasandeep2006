@@ -1,6 +1,9 @@
 <h1 align="center">
   ⚡ Hi, I'm <span style="color:#007bff;">Sandeep Sinha</span> ⚡
 </h1>
+<p align="center">
+  <img src="./images/first.gif" width="500" alt="" />
+</p>
 
 <table>
   <tr>
