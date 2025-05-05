@@ -100,5 +100,5 @@ Experienced in collaborating across teams, writing clear technical documentation
 
 ### 📊 GitHub Activity Dashboard
 
-![Metrics](https://raw.githubusercontent.com/sinhasandeep2006/sinhasandeep2006/output/metrics.svg)
+![Metrics](https://raw.githubusercontent.com/sinhasandeep2006/sinhasandeep2006/main/metrics.svg)
 
