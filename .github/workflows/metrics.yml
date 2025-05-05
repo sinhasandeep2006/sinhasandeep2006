@@ -21,6 +21,8 @@ jobs:
           plugin_languages: yes
           plugin_lines: yes
           plugin_habits: yes
+          plugin_achievements: no
+
 
           # ✅ This saves metrics.svg into your repo
           output_action: commit
