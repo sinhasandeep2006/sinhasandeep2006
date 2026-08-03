@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *" # every day at midnight
   workflow_dispatch:
 
+# Required so the default GITHUB_TOKEN can push to the "output" branch.
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -15,6 +19,7 @@ jobs:
           github_user_name: sinhasandeep2006
           outputs: |
             dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
       - name: Push SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
